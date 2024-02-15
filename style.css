@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+.todo-input {
+  padding: 10px;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.todo-button {
+  background-color: #a3e0a3;
+  border: none;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  /* background-color: yellow; */
+}
+
+.js-container {
+  display: grid;
+  grid-template-columns: 350px 250px 200px;
+  /* background-color: yellow; */
+  /* gap: 1rem; */
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.js-del {
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.js-reset {
+  background-color: blue;
+  border: none;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
